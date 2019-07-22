@@ -1,0 +1,260 @@
+body{margin: 0;}
+        .header1{
+            box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.4);
+        }
+        img {
+            height: 28px;
+            margin: 2px 3px;
+        }
+
+        .p {
+            width: 32px;
+            height: 32px;
+            position: relative;
+            top: 6px;
+            margin-right: 12px;
+            float: left;
+        }
+
+        .r {
+            line-height: 45px;
+            display: inline-block;
+        }
+
+        input {
+            width: 543px;
+            height: 20px;
+            margin-left: 175px;
+            padding: 10px 24px;
+            background-color: rgba(85, 85, 85, .25);
+            font-size: 18px;
+            display: inline-block;
+            color: #ebebeb;
+        }
+
+        .p2 {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 100px;
+        }
+
+        .app {
+            display: inline-block;
+            padding-right: 65px;
+            padding-left: 65px
+        }
+
+        .p3 {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .type {
+            margin-right: 48px;
+            display: inline-block;
+            vertical-align: middle
+        }
+
+        .foot {
+            text-align: center;
+            margin-top: 10px;
+            padding-bottom: 10px;
+        }
+        .header1{
+            background-color: #F7F8FA;
+            border-top: 10px solid #F7F8FA;
+            border-left: 10px solid #F7F8FA;
+        }
+        .box {
+            background: #F7F8FA;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+        .container {
+            float: left;
+            margin-left: 10px;
+            max-height: 200px;
+            /* float: left; */
+            /* margin-left: 20px; */
+        }
+        #c1 {
+            /* top: 0;
+            left: 200px; */
+            left: 10px;
+            background-color: #FFF;
+            padding: 10px;
+            
+        }
+
+        #c2 {
+            /* top: 0;
+            left: 200px; */
+            left: 288px;
+            background-color: #FFF;
+            padding: 10px;
+        }
+
+        #c3 {
+            /* top: 0;
+            left: 200px; */
+            left: 568px;background-color: #FFF;
+            padding: 10px;
+        }
+
+        #c4 {
+            /* top: 0;
+            left: 200px; */
+            left: 568px;background-color: #FFF;
+            padding: 10px;
+        }
+
+        .header {
+            width: 250px;
+            padding: 10px;
+            background-color:#FFF;
+            /* position: absolute; */
+            left: 10px;
+            top: 10px;
+            border-bottom: 1px solid #EBEBEB;
+            
+        }
+
+        .picture img{
+            vertical-align: middle;
+            border-radius: 50%;
+        }
+
+        div .zhihu {
+            font-weight: 700;
+            font-size: 1.2rem;
+            margin-right: 130px;
+        }
+
+        .rebang {
+            border-bottom: 2px solid #98999A;
+            font-weight: 700;
+            color: #666;
+            display: inline;
+            padding-bottom: 14px;
+        }
+
+        .ranked {
+            width: 250px;
+            padding: 10px;
+            background-color: #FFF;
+            /* position: absolute; */
+            left: 18px;
+            top: 69px;
+            overflow: overlay;
+            max-height: 200px;
+             
+            
+
+        }
+        dl {
+            margin: 0px;
+            
+           
+        }
+        dt{
+            padding-bottom: 5px;
+        }
+
+        /* .header2 {
+            width: 250px;
+            padding: 10px;
+            background-color: #EBEBEB;
+            position: relative;
+            left: 30PX;
+            top: 10PX;
+        }
+
+        .picture2 {
+            vertical-align: middle;
+        } */
+
+        div .weibo {
+            font-weight: 700;
+            font-size: 1.2rem;
+            margin-right: 113px;
+        }
+
+        .resoubang {
+            border-bottom: 2px solid #98999A;
+            font-weight: 700;
+            color: #666;
+            display: inline;
+            padding-bottom: 14px;
+        }
+        body {
+            display: block;
+            margin: 0;
+            
+        }
+        /* .header3 {
+            width: 250px;
+            padding: 10px;
+            background-color: #EBEBEB;
+            position: relative;
+            left: 50px;
+            top: 10px;
+        }
+
+        .picture3 {
+            vertical-align: middle;
+        } */
+
+        .weixin {
+            font-weight: 700;
+            font-size: 1.2rem;
+            margin-right: 83px;
+        }
+        .rewenbang {
+            border-bottom: 2px solid #98999A;
+            font-weight: 700;
+            color: #666;
+            display: inline;
+            padding-bottom: 14px;
+        }
+        .pengpaixinwen {
+            font-weight: 700;
+            font-size: 1.2rem;
+            margin-right: 58px;
+        }
+        .jinripaihang {
+            border-bottom: 2px solid #98999A;
+            font-weight: 700;
+            color: #666;
+            display: inline;
+            padding-bottom: 14px;
+        }
+        .quantity{
+            float: right;
+        }
+        .num{
+            color: red;
+            vertical-align: top;
+            
+        }
+        .content{
+            max-width:200px;
+            overflow: hidden; /*自动隐藏文字*/
+            text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+            white-space: nowrap;/*强制不换行*/
+            width: 170px;/*不允许出现半汉字截断*/
+            display: inline-block;            
+        }
+        .lll img{
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin: 40px 40px 0px 40px;
+        }
+        a{
+            text-decoration:none;
+            color:black;
+            } 
+        a:hover{
+            color: rgb(32, 148, 226);
+            text-decoration:none
+            }
